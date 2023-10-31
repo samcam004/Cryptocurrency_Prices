@@ -4,9 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device.width, initial-scale=1.0">
         <title>Cryptocurrency Prices</title>
+        <link rel="stylesheet" href="styles/main.css">
         <script src="scripts/fetch-data.js"></script>
     </head>
     <body>
-        
+        <header>Crypto Currency Info</header>
+        <main>
+            <div class="flex-container">
+                <div class="drop">
+                    <label for="coins"><h2>Currency:</h2></label>
+                    <select name="coins" id="coins">
+                        <option value="test1">Option 1 </option>
+                        <option value="test2">Option 2</option>
+                        <option value="test3">Option 3</option>
+                    </select>
+                </div>
+                <div class="info">
+                    <h1 class="info">Coin Name</h1>
+                    <h2 class="info">Symbol: <var>symbol</var></h2>
+                    <h2 class="info">Supply: <var>supply</var></h2>
+                    <h2 class="info">Price: <var>price</var></h2>
+                    <h2 class="info">% change (24 hrs): <var>change</var></h2>
+                </div>
+            </div>
+
+        </main>
     </body>
 </html>
