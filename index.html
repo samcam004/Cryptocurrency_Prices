@@ -14,15 +14,17 @@
             <div class="flex-container">
                 <div class="drop">
                     <label for="coins"><h2>Currency:</h2></label>
-                    <select name="coins" id="coins"></select>
+                    <select name="coins" id="coins">
+                        <option>--Select--</option>
+                    </select>
+
                 </div>
                 <div class="info">
-                    supply = "test";
-                    <h1 class="info">Coin Name</h1>
-                    <h2 class="info">Symbol: <var>symbol</var></h2>
-                    <h2 class="info">Supply: </h2>
-                    <h2 class="info">Price: <var>price</var></h2>
-                    <h2 class="info">% change (24 hrs): <var>change</var></h2>
+                    <h2 class="info"><span id="name">Select Coin</span></h1>
+                    <h3 class="info">Symbol: <span id="symbol"></span></h2>
+                    <h3 class="info">Supply: <span id="supply"></span></h2>
+                    <h3 class="info">Price: $<span id="price"></span></h2>
+                    <h3 class="info">% change (24 hrs): <span id="change"></span></h2>
                 </div>
             </div>
 
